@@ -1,4 +1,4 @@
-package com.masai.app;
+package com.masai;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
