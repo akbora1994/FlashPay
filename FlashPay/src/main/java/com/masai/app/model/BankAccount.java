@@ -1,4 +1,4 @@
-package com.masai.model;
+package com.masai.app.model;
 
 import javax.persistence.Column;
 import javax.annotation.Generated;

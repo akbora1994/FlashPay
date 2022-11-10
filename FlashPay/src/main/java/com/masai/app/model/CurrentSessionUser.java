@@ -1,4 +1,4 @@
-package com.masai.model;
+package com.masai.app.model;
 
 import java.time.LocalDateTime;
 import java.util.Optional;
