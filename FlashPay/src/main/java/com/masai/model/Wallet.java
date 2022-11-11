@@ -42,7 +42,7 @@ public class Wallet {
 	
 	@OneToMany
 	@JsonIgnore
-//	private List<BeneficiaryDetail> beneficiaryDetails;
+	private List<BeneficiaryDetail> beneficiaryDetails;
 	
 	
 
@@ -80,13 +80,13 @@ public class Wallet {
 	}
 
 	
-//	public List<BeneficiaryDetail> getBeneficiaryDetails() {
-//		return beneficiaryDetails;
-//	}
-//
-//	public void setBeneficiaryDetails(List<BeneficiaryDetail> beneficiaryDetails) {
-//		this.beneficiaryDetails = beneficiaryDetails;
-//	}
+	public List<BeneficiaryDetail> getBeneficiaryDetails() {
+		return beneficiaryDetails;
+	}
+
+	public void setBeneficiaryDetails(List<BeneficiaryDetail> beneficiaryDetails) {
+		this.beneficiaryDetails = beneficiaryDetails;
+	}
 
 	public Wallet() {
 		super();
