@@ -38,7 +38,7 @@ public class BeneficiaryDetailController {
 		BeneficiaryDetail saved = beneficiaryService.addBeneficiary(uuid,beneficiaryDetail);
 		return new ResponseEntity<BeneficiaryDetail>(saved,HttpStatus.CREATED);
 	}
-	@PatchMapping("/del")
+	@DeleteMapping("/del")
 	public ResponseEntity<BeneficiaryDetail>deleteBeneficiaryDetail(@Valid @RequestParam String uuid,@Valid @RequestParam String beneficiaryMobileNo) throws BeneficiaryDetailException{
 		BeneficiaryDetail deleted = beneficiaryService.deleteBeneficiary(uuid,beneficiaryMobileNo);
 		return new ResponseEntity<BeneficiaryDetail>(deleted,HttpStatus.OK);

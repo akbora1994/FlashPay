@@ -14,3 +14,5 @@ public interface CustomerDAO extends JpaRepository<Customer, Integer>{
 	
 	public Optional<Customer>findByMobileNo(String mobileNo);
 }
+
+
