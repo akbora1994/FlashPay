@@ -1,34 +1,34 @@
-# FlashPay
+# FlashPay Application
 This is a collaborative project named as Payment Wallet Application(FlashPay) which is our Backend project build by a team of 4 in just 5 days.
 By using this application one can send and receive money, pay different bills, view transaction details, add balance to wallet etc.. 
 Entity Relationship Diagram 
 
 ![FlashPay-ER-Diagram](https://user-images.githubusercontent.com/101569228/200902071-d6ad123d-55ce-4dee-b7bd-6d5c3a06ee0b.jpeg)
 
-Services Offered 
+## Services Offered 
 
-User Login and Signup.
-Add money from bank account to wallet.
-Transfer money from wallet to wallet.
-Deposit Money from wallet to Bank Account.
-User can pay different different bills.
-User can get all transaction history, bill payments.
+- User Login and Signup.
+- Add money from bank account to wallet.
+- Transfer money from wallet to wallet.
+- Deposit Money from wallet to Bank Account.
+- User can pay different different bills.
+- User can get all transaction history, bill payments.
 
-Backend
+## Backend 
 
-Built authentication while login and logout using key.
-Stored data on MySQL.
-Input Validation.
-Implement Login and logout Functionality with CurrentSeesionUser table.
+- Built authentication while login and logout using key.
+- Stored data on MySQL.
+- Input Validation.
+- Implement Login and logout Functionality with CurrentSeesionUser table.
 
 Technology Used
 
-Java
-Spring
-Spring Boot
-Spring data JPA
-Hibernate
-MySQL
+- Java
+- Spring
+- Spring Boot
+- Spring data JPA
+- Hibernate
+- MySQL
 
 
  ## Team Members
