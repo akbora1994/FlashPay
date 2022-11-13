@@ -34,6 +34,6 @@ MySQL
  ## Team Members
 
 ### [Akshay Boraste](https://github.com/akbora1994)
-### Sushank Mandal
-### Subhajit 
-### Deepak Sharma
+### [Sushank Mandal](https://github.com/sushank678)
+### [Subhajit](https://github.com/subhajit51193)
+### [Deepak Sharma](https://github.com/Deepaksharma-39)
