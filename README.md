@@ -3,7 +3,7 @@ This is a collaborative project named as Payment Wallet Application(FlashPay) wh
 By using this application one can send and receive money, pay different bills, view transaction details, add balance to wallet etc.. 
 Entity Relationship Diagram 
 
-![FlashPay-ER-Diagram](https://user-images.githubusercontent.com/101569228/200902071-d6ad123d-55ce-4dee-b7bd-6d5c3a06ee0b.jpeg)
+![FlashPay-ER-Diagram]<img width: 200px, src="[./img/gif2.gif](https://user-images.githubusercontent.com/101569228/200902071-d6ad123d-55ce-4dee-b7bd-6d5c3a06ee0b.jpeg)" alt=""/>
 
 ## Services Offered 
 
