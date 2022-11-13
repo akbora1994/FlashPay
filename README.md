@@ -1,4 +1,4 @@
-# FlashPay Application
+                                             # FlashPay Application
 This is a collaborative project named as Payment Wallet Application(FlashPay) which is our Backend project build by a team of 4 in just 5 days.
 By using this application one can send and receive money, pay different bills, view transaction details, add balance to wallet etc.. 
 Entity Relationship Diagram 
