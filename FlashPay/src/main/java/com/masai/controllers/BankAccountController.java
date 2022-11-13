@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PatchMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -36,7 +37,7 @@ public class BankAccountController {
 		return new ResponseEntity<>(bankaccount,HttpStatus.ACCEPTED);
 	}
 	
-	@PatchMapping("/{acc}/{id}")
+	@DeleteMapping("/{acc}/{id}")
 	public  ResponseEntity<BankAccount> deleteBankAccountfromWallet( @PathVariable("acc") Integer accountNumber,@PathVariable("id") String uniqueId) throws BankAccountNotExsists, UserNotLogedinException {
 		BankAccount accountDeleted = bankService.removeBank(accountNumber, uniqueId);
 		return new ResponseEntity<BankAccount>(accountDeleted,HttpStatus.ACCEPTED);
