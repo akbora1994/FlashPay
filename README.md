@@ -29,3 +29,11 @@ Spring Boot
 Spring data JPA
 Hibernate
 MySQL
+
+
+ ## Team Members
+
+### Akshay Boraste :
+### Sushank Mandal
+### Subhajit 
+### Deepak Sharma
